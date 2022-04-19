@@ -1,0 +1,66 @@
+.tv{
+    text-align:left ;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.media{
+    display:flex;
+    width:200px;
+  padding-right: 20px;
+   
+}
+
+.img{
+    width:400px;
+    margin:20px;
+    border-style: none; 
+    margin-bottom: none; 
+  
+    
+}
+.text_link{
+    display:flex;
+
+}
+.text{
+margin-left:200px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.tv_info{
+    display: block;
+    width: 40%;
+    margin-left: 40px;
+}
+.media_floor{
+    display:flex;
+    width:500px;
+  padding-right: 20px; 
+}
+.wall_tv{
+    width:45%;
+    margin:20px;
+    border-style: none; 
+    margin-bottom: 70px; 
+}
+
+.box{
+    width: 40%;
+    height: 200px;
+  
+    
+}
+.media_tool{
+    display: flex;
+    margin-left: 20%;
+}
+.box:first-child{
+    margin-left: 50px;
+    height: 400px;
+    background-color: #e5456d;
+}
+.box:nth-child(2){
+    width: 700px;
+    height:400px
+}
