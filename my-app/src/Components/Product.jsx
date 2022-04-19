@@ -25,6 +25,7 @@ export const Product = ()=>{
     }
     return(
         <div>
+        
       <h1>hello i am arvind</h1>
         </div>
     )

@@ -17,11 +17,12 @@ const handleError = () =>({
 })
 
 
-const getData = ()=>(dispatch)=> {
+const getData = ()=>(dispatch)=>{
     dispatch(handleLoading())
-    fetch("https://jsonplaceholder.typicode.com/photos")
+    fetch("http://localhost:3001/Tv_data")
     .then((res) => res.json())
     .then((res) => dispatch(storeData(res)))
+    // .then((res)=>console.log(res))
     .catch((err) => dispatch(handleError()))
 }
 export {storeData,handleLoading,handleError,getData}
