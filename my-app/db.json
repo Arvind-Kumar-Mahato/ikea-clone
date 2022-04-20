@@ -81,6 +81,88 @@
             "runninglow":"Running low at Elizabeth, NJ"
         }
 
-    ]
+    ],
+
+
+    "Bed": [
+        { "id": 1,
+            "img":"data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
+         "title":"MALM",
+        "sub_title":"Bed frame, high, black-brown",
+        "price":"$249"
+       },
+
+
+       { "id": 2,
+        "img":"https://www.ikea.com/us/en/images/products/kleppstad-bed-frame-white-vissle-beige__1035341_pe840528_s5.jpg?f=xxxs",
+     "title":"MALM",
+    "sub_title":"High bed frame/2 storage boxes",
+    "price":"$334"
+       },
+
+       { "id": 3,
+        "img":"https://www.ikea.com/us/en/images/products/grimsbu-bed-frame-gray-luroey__0750211_pe747233_s5.jpg?f=xxxs",
+     "title":"GRIMSBU",
+    "sub_title":"Bed frame, gray/Luröy",
+    "price":"$89"
+       },
+       { "id": 4,
+        "img":"https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__1101373_pe866633_s5.jpg?f=xxxs",
+     "title":"SLATTUM",
+    "sub_title":"Upholstered bed frame, Knisa light",
+    "price":"$189"
+       },
+
+       { "id": 5,
+        "img":"data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
+     "title":"TARVA",
+    "sub_title":"Bed frame, pine/Luröy",
+    "price":"$179"
+       },
+
+       { "id": 6,
+        "img":"https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+     "title":"MALM",
+    "sub_title":"High bed frame/4 storage boxes",
+    "price":"$419"
+       },
+
+       { "id": 7,
+        "img":"https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-white-luroey__0860756_pe629428_s5.jpg?f=xxxs",
+     "title":"BRIMNES",
+    "sub_title":"Bed frame with storage",
+    "price":"$339"
+       },
+
+
+       { "id": 8,
+        "img":"https://www.ikea.com/us/en/images/products/bjoerksnaes-bed-frame-birch-loenset__0629696_pe694429_s5.jpg?f=xxs",
+     "title":"BJÖRKSNÄS",
+    "sub_title":"Bed frame, birch/Lönset",
+    "price":"$609"
+       },
+
+       { "id": 9,
+        "img":"https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-4-storage-boxes-vissle-gray__0916096_pe784968_s5.jpg?f=xxs",
+     "title":"HAUGA",
+    "sub_title":"Upholstered bed, 4 storage boxes",
+    "price":"$479"
+       }
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+      ]
     
 }

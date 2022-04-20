@@ -5,8 +5,9 @@ import {Storage} from './Components/Home'
 function App() {
   return (
     <div className="App">
+    <Storage/>
       <Product/>
-      <Storage/>
+      
     </div>
   );
 }
