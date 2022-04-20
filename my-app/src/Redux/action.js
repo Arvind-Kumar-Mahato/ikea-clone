@@ -1,4 +1,4 @@
-import { store_Data,IS_LOADING ,IS_ERROR} from "./actionType"
+import { store_Data,IS_LOADING ,IS_ERROR,DELETE_DATA,TOTAL_AMOUNT} from "./actionType"
 
 const storeData = (payload) =>({
     type: store_Data,
@@ -15,6 +15,18 @@ const handleError = () =>({
     type: IS_ERROR,
 
 })
+export const totalAmount=(payload)=>{
+    return{
+        type:TOTAL_AMOUNT,
+        payload,
+    };
+}
+    export const deleteData=(payload)=>{
+        return{
+            type:DELETE_DATA,
+            payload,
+        };
+    };
 
 
 const getData = ()=>(dispatch)=>{

@@ -1,8 +1,11 @@
 import React from "react"
 import "./Home.css"
+import { Product } from "./Product"
+import { Navbar } from "./Navbar"
 export const Storage=()=>{
     return(
         <>
+        <Navbar/>
         <h1 className="tv">TV & media furniture</h1>
         <div clasName = "media">
 
@@ -43,6 +46,7 @@ export const Storage=()=>{
        
         <img className = "box"src = "https://www.ikea.com/images/the-besta-storage-system-f3e72ca02959bb40043a9ce2fa597780.jpg?f=m"/>
         </div>
+        <Product/>
     </>
     )
 }

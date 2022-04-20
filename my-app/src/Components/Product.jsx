@@ -5,7 +5,9 @@ import {storeData,handleLoading,handleError, getData} from  "../Redux/action"
 import { IS_LOADING } from "../Redux/actionType";
 import "./product.css";
 
+
 export const Product = ()=>{
+    
     const dispatch = useDispatch();
     useEffect (() =>{
        dispatch(getData())
@@ -37,6 +39,16 @@ export const Product = ()=>{
                       <p>{e.price}</p>
                       <p>{e.available}</p>
                       <p>{e.runninglow}</p>
+
+                      <p onClick={()=>{
+         fetch(`http://localhost:3001/Tv_data${e.id}`)
+          .then(({data})=>{
+            dispatch((data))
+             console.log(data);
+            console.log("added")
+           })
+           
+            }}><button className="card_button">Add to Bag</button></p>
                        </div>
                         {/* <img className = "product"src = {e.img} /> */}
                     </>

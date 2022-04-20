@@ -1,4 +1,4 @@
-import { store_Data,IS_LOADING,IS_ERROR } from "./actionType"
+import { store_Data,IS_LOADING,IS_ERROR,DELETE_DATA,TOTAL_AMOUNT} from "./actionType"
 
 
 
@@ -21,6 +21,9 @@ const reducer = (state= initialState,action)=>{
 
        case store_Data:
        return {...state, isLoading:false, data: action.payload}
+        
+
+
       default:
           return state;
    }
