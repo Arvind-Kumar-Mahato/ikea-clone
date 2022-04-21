@@ -4,6 +4,7 @@ import {useDispatch,useSelector } from 'react-redux'
 import {storeData,handleLoading,handleError, getData} from  "../Redux/action"
 import { IS_LOADING } from "../Redux/actionType";
 import "./product.css";
+import {useState} from 'react';
 
 
 export const Product = ()=>{
@@ -19,6 +20,8 @@ export const Product = ()=>{
     const error  = useSelector((state)=>state.isError)
     console.log(productdata)
 
+    //   const [search, setsearch] = useState("")
+
     if(loading){
         return <h1>Loading...</h1>
     }
@@ -26,6 +29,8 @@ export const Product = ()=>{
         return <h1> Something went wrong</h1>
     }
     return(
+        <>
+        {/* <input type = "text" placeholder = "search" onchange = {(e)=>setsearch(e.target.value)}/> */}
         <div className="card-container">
         {
             productdata.map((e)=>{
@@ -47,19 +52,21 @@ export const Product = ()=>{
              console.log(data);
             console.log("added")
            })
-           
+         
             }}><button className="card_button">Add to Bag</button></p>
                        </div>
                         {/* <img className = "product"src = {e.img} /> */}
                     </>
                 )
             })
+           
         }
         
       
         
       
         </div>
+         </>
     )
 }
 

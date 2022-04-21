@@ -4,13 +4,27 @@ import  {useState} from "react";
 import "./Navbar.css";
 import {Link} from "react-router-dom";
 import { Search_Users } from "./Utilis"
+import {useDispatch,useSelector } from 'react-redux'
+
 export const Navbar = () => {
+    const [users, setUsers] = useState("");
     
-    const [users, setUsers] = useState([]);
+    const productdata = useSelector((state)=> state.data)
     const SearchUsers = (e)=>{
+        console.log(e.target.value)
         
-        setUsers(Search_Users (e.target.value, users));
+        setUsers(e.target.value);
+
+        productdata.filter((c)=>{
+            if(users === ""){
+                return c;
+            }else{
+                return c.title.toLowerCase().includes(users.toLowerCase());
+            }
+        })
+
        };
+       
   return (
     <>
       <ul className="nav">
@@ -25,6 +39,7 @@ export const Navbar = () => {
           <input type="text" placeholder="What are you looking for"  
               onChange={SearchUsers}
           />
+          
         </h4>
        
         <button className="sign">Login & Signup</button>
@@ -43,7 +58,15 @@ export const Navbar = () => {
         <li className="list2">Design</li>
         <li className="list2">Deal</li>
       </ul>
+       
+      
+
+      
     </>
   );
+
 };
+
+
+
 

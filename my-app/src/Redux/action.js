@@ -31,6 +31,7 @@ export const totalAmount=(payload)=>{
 
 const getData = ()=>(dispatch)=>{
     dispatch(handleLoading())
+   
     fetch("http://localhost:3001/Tv_data")
     .then((res) => res.json())
     .then((res) => dispatch(storeData(res)))
