@@ -5,6 +5,7 @@ import {storeData,handleLoading,handleError, getData} from  "../Redux/action"
 import { IS_LOADING } from "../Redux/actionType";
 import "./product.css";
 import {useState} from 'react';
+import { Navbar } from "./Navbar";
 
 
 export const Product = ()=>{
@@ -20,8 +21,8 @@ export const Product = ()=>{
     const error  = useSelector((state)=>state.isError)
     console.log(productdata)
 
-    //   const [search, setsearch] = useState("")
-
+     const [search, setsearch] = useState("")
+      console.log(search)
     if(loading){
         return <h1>Loading...</h1>
     }
@@ -30,10 +31,19 @@ export const Product = ()=>{
     }
     return(
         <>
-        {/* <input type = "text" placeholder = "search" onchange = {(e)=>setsearch(e.target.value)}/> */}
+        <Navbar/>
+        <input className="search" type = "text" placeholder = "search product name" onChange={(e)=>setsearch(e.target.value)}/>
         <div className="card-container">
         {
-            productdata.map((e)=>{
+            productdata.filter((e)=>{
+                if(search ===""){
+                    return e
+                }
+                else{
+                    return e.title.toLowerCase().includes(search.toLowerCase());
+                }
+            })
+            .map((e)=>{
                 return(
                     <>
                     <div className ="wrap" key = {e.id}>

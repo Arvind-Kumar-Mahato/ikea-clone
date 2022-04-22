@@ -46,7 +46,7 @@ export const Storage=()=>{
        
         <img className = "box"src = "https://www.ikea.com/images/the-besta-storage-system-f3e72ca02959bb40043a9ce2fa597780.jpg?f=m"/>
         </div>
-        <Product/>
+       
     </>
     )
 }

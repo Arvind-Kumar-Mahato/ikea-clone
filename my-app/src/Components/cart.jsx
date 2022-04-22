@@ -1,7 +1,9 @@
 import React from "react"
 
 export const Cart= ()=>{
-    return 
+    return <>
+        <h1>hello</h1>
+    </>
 
     
 }

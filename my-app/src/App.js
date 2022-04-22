@@ -4,6 +4,7 @@ import { Product } from './Components/Product';
 import {Storage} from './Components/Home'
 import { Navbar } from "./Components/Navbar";
 import {Login} from "./Components/Login"
+import {Cart} from "./Components/cart"
 import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Storage />} />
         <Route path="/about" element={<Login/>} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </div>
   );

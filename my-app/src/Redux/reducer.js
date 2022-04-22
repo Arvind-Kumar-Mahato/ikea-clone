@@ -1,11 +1,14 @@
-import { store_Data,IS_LOADING,IS_ERROR,DELETE_DATA,TOTAL_AMOUNT} from "./actionType"
+import { Search } from "react-router-dom"
+import { store_Data,IS_LOADING,IS_ERROR,DELETE_DATA,TOTAL_AMOUNT,SEARCH} from "./actionType"
 
 
 
 const initialState = {
     isLoading : false,
     isError : false,
-    data : []
+    data : [],
+    search_text:""
+
 }
 
 const reducer = (state= initialState,action)=>{
@@ -22,7 +25,8 @@ const reducer = (state= initialState,action)=>{
        case store_Data:
        return {...state, isLoading:false, data: action.payload}
         
-
+       case SEARCH:
+           return{...state, isLoading:false, data:action.payload}
 
       default:
           return state;
