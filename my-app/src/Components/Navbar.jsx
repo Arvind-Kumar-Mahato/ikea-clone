@@ -41,8 +41,9 @@ export const Navbar = () => {
           />
           
         </h4>
-       
+       <Link to ="/about">
         <button className="sign">Login & Signup</button>
+        </Link>
         <li>
           <img
             className="icon1"

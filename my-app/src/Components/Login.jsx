@@ -1,6 +1,7 @@
 import React from "react";
 import {useState} from 'react';
 import "./Login.css"
+import {Link} from 'react-router-dom';
 export const Login = ()=>{
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -9,7 +10,8 @@ export const Login = ()=>{
              <div className="loginpage">
             <div className="login__rightside">
                 <div className="login__rightHeader">
-                    
+                    <Link to = "/"><button>back</button>
+                    </Link>
                      
                    
                     <img src="https://i.pinimg.com/originals/87/57/3c/87573c4b482d35d350653994b2c96ad4.jpg" alt=""/>
@@ -40,8 +42,9 @@ export const Login = ()=>{
                 <form className="login__form">
                     <input value={email} onChange={event => setEmail(event.target.value)} type="email" placeholder="Email/mobile number" className="login__input"/>
                     <input value={password} onChange={event => setPassword(event.target.value)} type="password" placeholder="Password" className="login__input"/> 
-                    <button type="submit" className="login__button">Login</button>
-                </form>
+                   
+                   <Link to = "/" ><button type="submit" className="login__button">Login</button>
+                   </Link>   </form>
 
                 <div className="smallFooter-2">
                     <p>IKEA.nl - 
