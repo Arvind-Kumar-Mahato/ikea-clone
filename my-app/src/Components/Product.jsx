@@ -68,7 +68,7 @@ export const Product = ()=>{
 
                       <h2 onClick={()=>handleProductNavigate(e.id)}>{e.title}</h2>
                       <h5>{e.sub_title}</h5>
-                      <p>{e.price}</p>
+                      <p>₹{e.price}</p>
                       <p>{e.available}</p>
                       <p>{e.runninglow}</p>
 

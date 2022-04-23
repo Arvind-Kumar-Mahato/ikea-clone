@@ -40,7 +40,7 @@ export const Cart= () => {
         setCartData(updated);
     }
 
-    const totalAmount = cartData.reduce((price,item) => price + item.price,0);
+    const totalAmount = cartData.reduce((price,item) => price+item.price,0);
 
 
 
