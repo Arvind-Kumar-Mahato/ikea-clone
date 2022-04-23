@@ -46,7 +46,7 @@ export const  Individual=()=>{
         <div className="box">
          <h1>{showdata.title}</h1>
          <p>{showdata.sub_title}</p>
-         <h4>{showdata.price}</h4>
+         <h4>₹{showdata.price}</h4>
          <p>{showdata.available}</p>
 
          <h1>Our take on wood</h1>

@@ -149,29 +149,11 @@
   ],
   "cart": [
     {
-      "id": 5,
-      "img": "https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0850139_pe671188_s5.jpg?f=xxxs",
-      "title": "HEMNSE",
-      "sub_title": "TV unit, white stain/light brown58 1/4x18 1/2x22 1/2",
-      "price": 9874,
-      "available": "Available for delivery",
-      "runninglow": "Running low at Elizabeth, NJ"
-    },
-    {
-      "id": 9,
-      "img": "https://www.ikea.com/us/en/images/products/kallax-shelf-unit-with-4-inserts-white__1102291_pe866900_s5.jpg?f=xxxs",
-      "title": "KALLAX",
-      "sub_title": "Shelf unit, white30 3/8x57 7/8 ",
-      "price": 6598,
-      "available": "Available for delivery",
-      "runninglow": "Running low at Elizabeth, NJ"
-    },
-    {
-      "id": 7,
-      "img": "https://www.ikea.com/us/en/images/products/besta-tv-unit-with-drawers-black-brown-hanviken-stubbarp-black-brown-clear-glass__0845793_pe591537_s5.jpg?f=xxxs",
+      "id": 1,
+      "img": "https://www.ikea.com/us/en/images/products/besta-tv-unit-with-doors-white-selsviken-high-gloss-white__0723575_pe734046_s5.jpg?f=xxs",
       "title": "BESTÅ",
-      "sub_title": "TV unit, black-brown47 1/4x13 3/4x14 1/8",
-      "price": 4784,
+      "sub_title": "TV unit with doors70 7/8x16 1/2x15",
+      "price": 2958,
       "available": "Available for delivery",
       "runninglow": "Running low at Elizabeth, NJ"
     }
