@@ -7,6 +7,7 @@ import "./product.css";
 import {useState} from 'react';
 import { Navbar } from "./Navbar";
 import { useParams,useNavigate } from "react-router-dom";
+import { Footer } from "./Footer";
 
 
 export const Product = ()=>{
@@ -30,8 +31,8 @@ export const Product = ()=>{
     const handleProductNavigate = (prodId)=>{
       
 
-    //  Navigate(`/Tv_data/${prodId}`)
-          Navigate(`/product/id`)
+     Navigate(`/Tv_data/${prodId}`)
+        //   Navigate(`/product/id`)
     }
    
      const [search, setsearch] = useState("")
@@ -62,7 +63,7 @@ export const Product = ()=>{
             .map((e)=>{
                 return(
                     <>
-                    <div className ="wrap" key = {e.id}>
+                    <div className ="wrap" key = {e.id}  >
                      <img className="image" alt = "" src = {e.img}/>
 
                       <h2 onClick={()=>handleProductNavigate(e.id)}>{e.title}</h2>
@@ -82,6 +83,7 @@ export const Product = ()=>{
             }}><button className="card_button">Add to Bag</button></p> */}
                        </div>
                         {/* <img className = "product"src = {e.img} /> */}
+                        
                     </>
                 )
             })

@@ -1,0 +1,19 @@
+.order{
+  
+    width:800px;
+    height: 400px;
+    margin: auto;
+}
+.order_details{
+    text-align: center;
+    color: pink;
+}
+.thank{
+    text-align: center;
+    color: aqua;
+}
+
+.continue{
+    margin-left: 350px;
+    background-color: bisque;
+}
