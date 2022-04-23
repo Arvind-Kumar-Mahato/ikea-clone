@@ -1,168 +1,314 @@
 {
-    "Tv_data":[
-        { "id": 1, 
-            "img":"https://www.ikea.com/us/en/images/products/besta-tv-unit-with-doors-white-selsviken-high-gloss-white__0723575_pe734046_s5.jpg?f=xxs",
-            "title":"BESTÅ",
-            "sub_title": "TV unit with doors70 7/8x16 1/2x15",
-             "price": "$295.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-        
-        { "id": 2, 
-            "img":"https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0843389_pe535717_s5.jpg?f=xxxs",
-            "title":"BESTÅ",
-            "sub_title": "TV unit, white70 7/8x15 3/4x15",
-             "price": "$100.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-        { "id": 3, 
-            "img":"https://www.ikea.com/us/en/images/products/lack-tv-unit-black-brown__0955265_pe803705_s5.jpg?f=xxxs",
-            "title":"LACK",
-            "sub_title": "TV unit, black-brown63x13 3/4x14 1/8 ",
-             "price": "$69.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-        { "id": 4, 
-            "img":"https://www.ikea.com/us/en/images/products/hauga-tv-storage-combination-white__0976536_ph173351_s5.jpg?f=xxxs",
-            "title":"HAUGA",
-            "sub_title": "TV/storage combination, white109x18 1/8x78 3/8",
-             "price": "$467.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-        { "id": 5, 
-            "img":"https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0850139_pe671188_s5.jpg?f=xxxs",
-            "title":"HEMNSE",
-            "sub_title": "TV unit, white stain/light brown58 1/4x18 1/2x22 1/2",
-             "price": "$279.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-        { "id": 6, 
-            "img":"https://www.ikea.com/us/en/images/products/lack-tv-unit-black-brown__0955259_pe803701_s5.jpg?f=xxxs",
-            "title":"LACK",
-            "sub_title": "TV unit, black-brown47 1/4x13 3/4x14 1/8",
-             "price": "$59.99",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-
-        { "id": 7, 
-            "img":"https://www.ikea.com/us/en/images/products/besta-tv-unit-with-drawers-black-brown-hanviken-stubbarp-black-brown-clear-glass__0845793_pe591537_s5.jpg?f=xxxs",
-            "title":"BESTÅ",
-            "sub_title": "TV unit, black-brown47 1/4x13 3/4x14 1/8",
-             "price": "$445.00",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-        { "id": 8, 
-            "img":"https://www.ikea.com/us/en/images/products/kallax-shelf-unit-white__1051325_pe845148_s5.jpg?f=xxxs",
-            "title":"KALLAX",
-            "sub_title": "Shelf unit, white30 3/8x57 7/8 ",
-             "price": "$79.99",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        },
-
-        { "id": 9, 
-            "img":"https://www.ikea.com/us/en/images/products/kallax-shelf-unit-with-4-inserts-white__1102291_pe866900_s5.jpg?f=xxxs",
-            "title":"KALLAX",
-            "sub_title": "Shelf unit, white30 3/8x57 7/8 ",
-             "price": "$149.99",
-            "available":"Available for delivery",
-            "runninglow":"Running low at Elizabeth, NJ"
-        }
-
-    ],
-
-
-    "Bed": [
-        { "id": 1,
-            "img":"data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
-         "title":"MALM",
-        "sub_title":"Bed frame, high, black-brown",
-        "price":"$249"
-       },
-
-
-       { "id": 2,
-        "img":"https://www.ikea.com/us/en/images/products/kleppstad-bed-frame-white-vissle-beige__1035341_pe840528_s5.jpg?f=xxxs",
-     "title":"MALM",
-    "sub_title":"High bed frame/2 storage boxes",
-    "price":"$334"
-       },
-
-       { "id": 3,
-        "img":"https://www.ikea.com/us/en/images/products/grimsbu-bed-frame-gray-luroey__0750211_pe747233_s5.jpg?f=xxxs",
-     "title":"GRIMSBU",
-    "sub_title":"Bed frame, gray/Luröy",
-    "price":"$89"
-       },
-       { "id": 4,
-        "img":"https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__1101373_pe866633_s5.jpg?f=xxxs",
-     "title":"SLATTUM",
-    "sub_title":"Upholstered bed frame, Knisa light",
-    "price":"$189"
-       },
-
-       { "id": 5,
-        "img":"data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
-     "title":"TARVA",
-    "sub_title":"Bed frame, pine/Luröy",
-    "price":"$179"
-       },
-
-       { "id": 6,
-        "img":"https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
-     "title":"MALM",
-    "sub_title":"High bed frame/4 storage boxes",
-    "price":"$419"
-       },
-
-       { "id": 7,
-        "img":"https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-white-luroey__0860756_pe629428_s5.jpg?f=xxxs",
-     "title":"BRIMNES",
-    "sub_title":"Bed frame with storage",
-    "price":"$339"
-       },
-
-
-       { "id": 8,
-        "img":"https://www.ikea.com/us/en/images/products/bjoerksnaes-bed-frame-birch-loenset__0629696_pe694429_s5.jpg?f=xxs",
-     "title":"BJÖRKSNÄS",
-    "sub_title":"Bed frame, birch/Lönset",
-    "price":"$609"
-       },
-
-       { "id": 9,
-        "img":"https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-4-storage-boxes-vissle-gray__0916096_pe784968_s5.jpg?f=xxs",
-     "title":"HAUGA",
-    "sub_title":"Upholstered bed, 4 storage boxes",
-    "price":"$479"
-       }
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-      ]
-    
+  "Tv_data": [
+    {
+      "id": 1,
+      "img": "https://www.ikea.com/us/en/images/products/besta-tv-unit-with-doors-white-selsviken-high-gloss-white__0723575_pe734046_s5.jpg?f=xxs",
+      "title": "BESTÅ",
+      "sub_title": "TV unit with doors70 7/8x16 1/2x15",
+      "price": "$295.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 2,
+      "img": "https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0843389_pe535717_s5.jpg?f=xxxs",
+      "title": "BESTÅ",
+      "sub_title": "TV unit, white70 7/8x15 3/4x15",
+      "price": "$100.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 3,
+      "img": "https://www.ikea.com/us/en/images/products/lack-tv-unit-black-brown__0955265_pe803705_s5.jpg?f=xxxs",
+      "title": "LACK",
+      "sub_title": "TV unit, black-brown63x13 3/4x14 1/8 ",
+      "price": "$69.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 4,
+      "img": "https://www.ikea.com/us/en/images/products/hauga-tv-storage-combination-white__0976536_ph173351_s5.jpg?f=xxxs",
+      "title": "HAUGA",
+      "sub_title": "TV/storage combination, white109x18 1/8x78 3/8",
+      "price": "$467.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 5,
+      "img": "https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0850139_pe671188_s5.jpg?f=xxxs",
+      "title": "HEMNSE",
+      "sub_title": "TV unit, white stain/light brown58 1/4x18 1/2x22 1/2",
+      "price": "$279.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 6,
+      "img": "https://www.ikea.com/us/en/images/products/lack-tv-unit-black-brown__0955259_pe803701_s5.jpg?f=xxxs",
+      "title": "LACK",
+      "sub_title": "TV unit, black-brown47 1/4x13 3/4x14 1/8",
+      "price": "$59.99",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 7,
+      "img": "https://www.ikea.com/us/en/images/products/besta-tv-unit-with-drawers-black-brown-hanviken-stubbarp-black-brown-clear-glass__0845793_pe591537_s5.jpg?f=xxxs",
+      "title": "BESTÅ",
+      "sub_title": "TV unit, black-brown47 1/4x13 3/4x14 1/8",
+      "price": "$445.00",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 8,
+      "img": "https://www.ikea.com/us/en/images/products/kallax-shelf-unit-white__1051325_pe845148_s5.jpg?f=xxxs",
+      "title": "KALLAX",
+      "sub_title": "Shelf unit, white30 3/8x57 7/8 ",
+      "price": "$79.99",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    },
+    {
+      "id": 9,
+      "img": "https://www.ikea.com/us/en/images/products/kallax-shelf-unit-with-4-inserts-white__1102291_pe866900_s5.jpg?f=xxxs",
+      "title": "KALLAX",
+      "sub_title": "Shelf unit, white30 3/8x57 7/8 ",
+      "price": "$149.99",
+      "available": "Available for delivery",
+      "runninglow": "Running low at Elizabeth, NJ"
+    }
+  ],
+  "Bed": [
+    {
+      "id": 1,
+      "img": "data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
+      "title": "MALM",
+      "sub_title": "Bed frame, high, black-brown",
+      "price": "$249"
+    },
+    {
+      "id": 2,
+      "img": "https://www.ikea.com/us/en/images/products/kleppstad-bed-frame-white-vissle-beige__1035341_pe840528_s5.jpg?f=xxxs",
+      "title": "MALM",
+      "sub_title": "High bed frame/2 storage boxes",
+      "price": "$334"
+    },
+    {
+      "id": 3,
+      "img": "https://www.ikea.com/us/en/images/products/grimsbu-bed-frame-gray-luroey__0750211_pe747233_s5.jpg?f=xxxs",
+      "title": "GRIMSBU",
+      "sub_title": "Bed frame, gray/Luröy",
+      "price": "$89"
+    },
+    {
+      "id": 4,
+      "img": "https://www.ikea.com/us/en/images/products/slattum-upholstered-bed-frame-knisa-light-gray__1101373_pe866633_s5.jpg?f=xxxs",
+      "title": "SLATTUM",
+      "sub_title": "Upholstered bed frame, Knisa light",
+      "price": "$189"
+    },
+    {
+      "id": 5,
+      "img": "data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
+      "title": "TARVA",
+      "sub_title": "Bed frame, pine/Luröy",
+      "price": "$179"
+    },
+    {
+      "id": 6,
+      "img": "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-4-storage-boxes-black-brown-luroey__0637597_pe698414_s5.jpg?f=xxs",
+      "title": "MALM",
+      "sub_title": "High bed frame/4 storage boxes",
+      "price": "$419"
+    },
+    {
+      "id": 7,
+      "img": "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-white-luroey__0860756_pe629428_s5.jpg?f=xxxs",
+      "title": "BRIMNES",
+      "sub_title": "Bed frame with storage",
+      "price": "$339"
+    },
+    {
+      "id": 8,
+      "img": "https://www.ikea.com/us/en/images/products/bjoerksnaes-bed-frame-birch-loenset__0629696_pe694429_s5.jpg?f=xxs",
+      "title": "BJÖRKSNÄS",
+      "sub_title": "Bed frame, birch/Lönset",
+      "price": "$609"
+    },
+    {
+      "id": 9,
+      "img": "https://www.ikea.com/us/en/images/products/hauga-upholstered-bed-4-storage-boxes-vissle-gray__0916096_pe784968_s5.jpg?f=xxs",
+      "title": "HAUGA",
+      "sub_title": "Upholstered bed, 4 storage boxes",
+      "price": "$479"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
+    },
+    {
+      "id": 31
+    },
+    {
+      "id": 32
+    },
+    {
+      "id": 33
+    },
+    {
+      "id": 34
+    },
+    {
+      "id": 35
+    },
+    {
+      "id": 36
+    },
+    {
+      "id": 37
+    },
+    {
+      "id": 38
+    },
+    {
+      "id": 39
+    },
+    {
+      "id": 40
+    },
+    {
+      "id": 41
+    },
+    {
+      "id": 42
+    },
+    {
+      "id": 43
+    },
+    {
+      "id": 44
+    },
+    {
+      "id": 45
+    },
+    {
+      "id": 46
+    },
+    {
+      "id": 47
+    },
+    {
+      "id": 48
+    },
+    {
+      "id": 49
+    },
+    {
+      "id": 50
+    },
+    {
+      "id": 51
+    },
+    {
+      "id": 52
+    },
+    {
+      "id": 53
+    },
+    {
+      "id": 54
+    }
+  ]
 }

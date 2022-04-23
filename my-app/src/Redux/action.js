@@ -28,6 +28,13 @@ export const totalAmount=(payload)=>{
         };
     };
 
+    // export const Id =(payload)=>{
+    //     return {
+    //         type:ID,
+    //         payload
+    //     }
+    // }
+
 
 const getData = ()=>(dispatch)=>{
     dispatch(handleLoading())

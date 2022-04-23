@@ -1,0 +1,15 @@
+.container{
+    display:flex
+   
+}
+.box{
+    /* border: 1px solid red; */
+    width:500px;
+    margin-left: 90px;
+    height:1000px;
+
+}
+.img{
+    width: 400px;
+   
+}

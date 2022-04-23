@@ -27,6 +27,9 @@ const reducer = (state= initialState,action)=>{
         
        case SEARCH:
            return{...state, isLoading:false, data:action.payload}
+        
+        //    case id:
+        //        return{...state,data:action.payload}
 
       default:
           return state;

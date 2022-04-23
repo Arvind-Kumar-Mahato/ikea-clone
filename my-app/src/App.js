@@ -4,8 +4,10 @@ import { Product } from './Components/Product';
 import {Storage} from './Components/Home'
 import { Navbar } from "./Components/Navbar";
 import {Login} from "./Components/Login"
-import {Cart} from "./Components/cart"
+import {Cart} from "./Components/Cart"
 import { Routes, Route, Link } from "react-router-dom";
+import {Individual} from "./Components/Individual"
+import { useParams,useNavigate } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,9 @@ function App() {
         <Route path="/about" element={<Login/>} />
         <Route path="/product" element={<Product />} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/product/id" element={<Individual/>} />
+        {/* <Route path="/product/id" element={<Individual/>} /> */}
+
       </Routes>
     </div>
   );

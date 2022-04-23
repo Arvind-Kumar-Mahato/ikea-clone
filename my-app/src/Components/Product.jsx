@@ -6,10 +6,12 @@ import { IS_LOADING } from "../Redux/actionType";
 import "./product.css";
 import {useState} from 'react';
 import { Navbar } from "./Navbar";
+import { useParams,useNavigate } from "react-router-dom";
 
 
 export const Product = ()=>{
-    
+    const params = useParams();
+    const Navigate = useNavigate();
     const dispatch = useDispatch();
     useEffect (() =>{
        dispatch(getData())
@@ -21,6 +23,17 @@ export const Product = ()=>{
     const error  = useSelector((state)=>state.isError)
     console.log(productdata)
 
+
+
+
+    
+    const handleProductNavigate = (prodId)=>{
+      
+
+    //  Navigate(`/Tv_data/${prodId}`)
+          Navigate(`/product/id`)
+    }
+   
      const [search, setsearch] = useState("")
       console.log(search)
     if(loading){
@@ -30,10 +43,13 @@ export const Product = ()=>{
         return <h1> Something went wrong</h1>
     }
     return(
+        
         <>
         <Navbar/>
+
         <input className="search" type = "text" placeholder = "search product name" onChange={(e)=>setsearch(e.target.value)}/>
         <div className="card-container">
+        
         {
             productdata.filter((e)=>{
                 if(search ===""){
@@ -49,13 +65,13 @@ export const Product = ()=>{
                     <div className ="wrap" key = {e.id}>
                      <img className="image" alt = "" src = {e.img}/>
 
-                      <h2>{e.title}</h2>
+                      <h2 onClick={()=>handleProductNavigate(e.id)}>{e.title}</h2>
                       <h5>{e.sub_title}</h5>
                       <p>{e.price}</p>
                       <p>{e.available}</p>
                       <p>{e.runninglow}</p>
 
-                      <p onClick={()=>{
+                      {/* <p onClick={()=>{
          fetch(`http://localhost:3001/Tv_data${e.id}`)
           .then(({data})=>{
             dispatch((data))
@@ -63,7 +79,7 @@ export const Product = ()=>{
             console.log("added")
            })
          
-            }}><button className="card_button">Add to Bag</button></p>
+            }}><button className="card_button">Add to Bag</button></p> */}
                        </div>
                         {/* <img className = "product"src = {e.img} /> */}
                     </>
